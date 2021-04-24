@@ -1,0 +1,112 @@
+VIEW TABLE
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-center">
+          <snap class="fa fa-fire"> ::before </snap>
+          Hot Restaurant
+        </h1>
+        <hr />
+        <h2 class="text-center">Current Reservations and waiting List</h2>
+        <br />
+        <div class="text-center">
+          <a href="/reservations.html">
+            <button class="btn btn-lg btn-danger">
+              <snap class="fa fa-credit-card"> ::before </snap>
+              Make Reservation
+            </button>
+          </a>
+          <a href="/">
+            <button class="btn btn-lg btn-default">
+              <snap class="fa fa-home"> ::before </snap>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header">
+              <h4>Current Reservation</h4>
+            </div>
+            <div class="card-body">
+              <ul id="tablelist" class="list-group">
+                <li class="list-group-item mt-4">
+                  <h2>Table #1</h2>
+                  <hr />
+                  <h2>ID:</h2>
+                  <h2>Name:</h2>
+                  <h2>Phone:</h2>
+                </li>
+                <li class="list-group-item mt-4">
+                  <h2>Table #2</h2>
+                  <hr />
+                  <h2>ID:</h2>
+                  <h2>Name:</h2>
+                  <h2>Phone:</h2>
+                </li>
+                <li class="list-group-item mt-4">
+                  <h2>Table #3</h2>
+                  <hr />
+                  <h2>ID:</h2>
+                  <h2>Name:</h2>
+                  <h2>Phone:</h2>
+                </li>
+                <li class="list-group-item mt-4">
+                  <h2>Table #4</h2>
+                  <hr />
+                  <h2>ID:</h2>
+                  <h2>Name:</h2>
+                  <h2>Phone:</h2>
+                </li>
+                <li class="list-group-item mt-4">
+                  <h2>Table #5</h2>
+                  <hr />
+                  <h2>ID:</h2>
+                  <h2>Name:</h2>
+                  <h2>Phone:</h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="card-header">
+              <div class="card-header">
+                <h4>Waiting List</h4>
+              </div>
+            </div>
+            <div class="card-body">
+              <ul id="waitinglist" class="list-group">
+                <li class="list-group-item mt-4">
+                  <h2>Table #1</h2>
+                  <hr />
+                  <h2>ID:</h2>
+                  <h2>Name:</h2>
+                  <h2>Phone:</h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer mt-4">
+        <div class="container">
+          <p>Control Panel</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
